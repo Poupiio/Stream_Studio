@@ -111,26 +111,33 @@ header {
 
 }
 
+.card-container {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    border: solid 1px green;
+    margin: 60px auto;
+    width: 50%; */
+
+    .myCard {
+        background-color: rgba(243, 30, 30, 0.67);
+        border-radius: 8px;
+        /* width: 280px;
+        height: 350px; */
+        margin: 20px;
+        padding: 20px;
+        color: white;
+    }
+    
+}
 
 
 
 
-
-
-
-
-
-
-
-/* 
-.card {
-    margin: 10px;
-    width: 250px;
-    height: 40vh;
-    background: rgba(169, 251, 201, 0.22);
-    border-radius: 8px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(12.5px);
-    -webkit-backdrop-filter: blur(12.5px);
-    border: 1px solid rgba(169, 251, 201, 1);
-} */
+/* background: rgba(245, 32, 32, 0.29);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(7.7px);
+        -webkit-backdrop-filter: blur(7.7px); */
