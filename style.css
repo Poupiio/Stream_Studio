@@ -112,20 +112,14 @@ header {
 }
 
 .card-container {
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-
     border: solid 1px green;
     margin: 60px auto;
-    width: 50%; */
+    width: 60%;
 
     .myCard {
+        cursor: pointer;
         background-color: rgba(243, 30, 30, 0.67);
         border-radius: 8px;
-        /* width: 280px;
-        height: 350px; */
         margin: 20px;
         padding: 20px;
         color: white;
