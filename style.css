@@ -10,7 +10,8 @@ body {
     /* background: #0D0615; */
     background: linear-gradient(to bottom right, #000000, #333333);
     min-height: 100vh;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Bebas Neue', sans-serif;
     color: #fff;
 }
 
@@ -74,7 +75,7 @@ header {
         text-transform: uppercase;
         position: absolute;
         text-align: center;
-        font-family: 'Bebas Neue', sans-serif;
+        
     }
 
     h1 {
@@ -153,17 +154,22 @@ header {
 }
 
 .card-container {
-    border: solid 1px green;
-    margin: 60px auto;
-    width: 60%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* border: solid 1px green; */
+    margin: 60px auto 100px;
+    width: 70%;
 
     .myCard {
         cursor: pointer;
-        background-color: rgba(243, 30, 30, 0.67);
+        background-color: rgba(243, 30, 30, 0.158);
         border-radius: 8px;
         margin: 20px;
         padding: 20px;
         color: white;
+
+        .myTitle {
+            font-size: 2rem;
+        }
 
         .card-btn {
             border: solid 1px white;
@@ -178,12 +184,13 @@ header {
 
 .pic-container {
     height: 60vh;
-    border: solid 1px white;
-    margin: 40px 0;
+    margin: 60px 0;
+    background-image: url("assets/img/popcorn.png");
+    background-position: center;
+    background-size: cover;
 }
 
 footer {
-    /* border: solid 2px red; */
     padding: 15px 0;
     display: flex;
     justify-content: center;
@@ -191,7 +198,6 @@ footer {
     box-shadow: 0px -6px 40px -20px rgba(255, 0, 0, 0.403);
 
     .footer-logo-container {
-        /* border: solid 1px green; */
         width: 180px;
         height: 150px;
         margin-right: 80px;
@@ -206,17 +212,15 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0;
-        margin: 0;
 
         li {
-            margin-bottom: 15px;
+            margin: 15px 0;
         }
 
         a {
             transition: 0.3s ease-in-out;
             font-size: 1.4rem;
-            font-family: 'Bebas Neue', sans-serif;
+            
             font-weight: 500;
         }
 
