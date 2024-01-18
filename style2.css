@@ -72,7 +72,7 @@ header {
     border-radius: 10px;
     box-shadow: 0px 0px 50px -3px rgba(1, 189, 146, 0.3);
     width: 80%;
-    margin: 0 auto 40px;
+    margin: 40px auto;
     padding: 10px 0;
 
     h1 {
@@ -94,6 +94,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
 
         .card {
             background: rgba(1, 189, 146, 0.3);
@@ -101,7 +102,8 @@ header {
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
             backdrop-filter: blur(8.3px);
             margin: 20px;
-            width: 280px;
+            /* width: 280px; */
+            width: 25%;
             min-height: 420px;
 
             .img {
@@ -126,17 +128,6 @@ header {
     h3 {
         margin: 10px 0;
     }
-
-    /* .presentation-content {
-        width: 80%;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 1.4rem;
-
-        p {
-            margin-bottom: 10px;
-        }
-    } */
 
     .carousel-container {
         margin: 20px 0;
@@ -183,5 +174,58 @@ header {
         transform: rotate(180deg);
     } 100% {
         transform: rotate(360deg);
+    }
+}
+
+#installation {
+    border: solid 1px blue;
+    margin-bottom: 40px;
+    height: 60vh;
+}
+
+.banner-bottom {
+    margin-bottom: 60px;
+    background-image: url("assets/img/popcorn.png");
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+}
+
+footer {
+    box-shadow: 0px 10px 40px 3px rgba(1, 189, 146, 0.3);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 10%;
+        margin-right: 50px;
+        border-right: 3px solid white;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.4rem;
+        transition: 0.3s ease-in-out;
+    }
+
+    a:hover {
+        color: #DC1A28;
     }
 }
