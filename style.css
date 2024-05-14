@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1, h2, a {
+h1, h2, h3, a {
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 2px;
 }
@@ -44,13 +44,18 @@ header::before {
 }
 .main-logo {
     border-radius: 100%;
-    margin-left: 110px;
 }
 .navBar {
     background: rgba(255,255,255,0);
     box-shadow: 14px 14px 44px #ff000060, -14px -14px 44px #ff0000;
     backdrop-filter: blur(18.6px);
     -webkit-backdrop-filter: blur(18.6px);
+
+    z-index: 10;
+}
+.navBar .toggle-icon {
+    background-color: #fdf7fd59;
+    border: solid 1px #FDF7FD;
 }
 .main-menu li {
     font-size: 1.8rem;
@@ -58,6 +63,7 @@ header::before {
 }
 .main-menu a {
     color: red;
+    transition: 0.3s ease-in-out;
 }
 .main-menu a:hover {
     color: #FDF7FD;
@@ -67,8 +73,33 @@ header::before {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FDF7FD;
+    z-index: 1;
 }
-.title h1 {
-    font-size: 4rem;
+.title h1, .title h3 {
+    font-size: 4.5rem;
     text-align: center;
+}
+.title h3 {
+    font-size: 2rem;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    header {
+        height: 40vh;
+    }
+    .main-logo {
+        width: 80px;
+        height: 80px;
+    }
+    .title {
+        top: 65%;
+    }
+    .title h1 {
+        font-size: 2.5rem;
+    }
+    .title h3 {
+        font-size: 1.5rem;
+    }
 }
