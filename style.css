@@ -114,9 +114,40 @@ swiper-slide img {
 .fa-paypal, .fa-credit-card {
     color: #01C094;
 }
-
+#faq {
+    background: rgba(0, 0, 0, 0.8);
+}
+#faq h2 {
+    color: #FDF7FD;
+}
+#faq a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0;
+}
 .faq-question {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#accordionFaq {
+    border: solid 2px red;
+    border-radius: 8px;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+.accordion-button.collapsed {
+    background-color: #f8f9fa;
+    color: #000000;
+}
+.backtotop {
+    background: red;
+    color: #FDF7FD;
+    border-radius: 100%;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.8);
+}
+.backtotop:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: red;
 }
 @media screen and (min-width: 300px) and (max-width: 400px) {
     header {

@@ -168,17 +168,18 @@
             <h2>Nos abonnements</h2>
         </div>
 
-        <div id="faq" class="container my-5">
-            <h2>Vous pourriez vous demander...</h2>
+        <div id="faq" class="container-fluid p-5 my-5">
+            <h2 class="pb-4">Vous pourriez vous demander...</h2>
             <div class="row">
                 <div class="col-8 mx-auto">
                     <div class="accordion" id="accordionFaq">
                         <div class="accordion-item">
                             <h2 class="accordion-header faq-question">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Sur quel support puis-je profiter de mon abonnement ?
-                            </button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Sur quel support puis-je profiter de mon abonnement ?
+                                </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFaq">
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
                                 <div class="accordion-body">
                                     <p>L'abonnement IPTV est compatible avec tous les supports numériques : smartphone (Android, iOs), tablette, ordinateur, télé.</p>
                                 </div>
@@ -186,7 +187,9 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header faq-question">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Quand puis-je recevoir mes codes d'accès ?</button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Quand puis-je recevoir mes codes d'accès ?
+                                </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
                                 <div class="accordion-body">
@@ -196,28 +199,48 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header faq-question">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Quels sont les moyens de paiement disponibles ?</button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Quels sont les moyens de paiement disponibles ?
+                                </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
                                 <div class="accordion-body">
                                     <p>Vous pouvez régler avec PayPal ou virement bancaire.</p>
-                                    <p>Pour le virement bancaire, <a href="#" class="payment-contact">Contactez-nous</a></p>
+                                    <p>Pour le virement bancaire, <a href="#" class="payment-contact">contactez-nous</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header faq-question">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Puis-je renseigner mes identifiants sur plusieurs appareils ?</button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Puis-je renseigner mes identifiants sur plusieurs appareils ?
+                                </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFaq">
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
                                 <div class="accordion-body">
                                     <p>Vous pouvez connecter votre compte sur plusieurs appareils. Cependant, un compte = une utilisation à un instant T.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header faq-question">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Comment contacter le service client ?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+                                <div class="accordion-body">
+                                    <p>Vous pouvez nous contacter 7j/7, de 9h à 22h, par <a href="#">email</a> ou <a href="#">WhatsApp</a>.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="btn my-5 d-flex justify-content-center">
+            <a href="#header" type="button" class="btn backtotop"><i class="fa-solid fa-arrow-up"></i></a>
         </div>
     
     </main>
