@@ -58,7 +58,7 @@
      </header>
 
     <main>
-        <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+        <swiper-container class="mySwiper" pagination="false" effect="coverflow" grab-cursor="true" centered-slides="true"
         slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
         coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true" autoplay="true">
             <swiper-slide>
@@ -113,27 +113,72 @@
                 <img src="assets/img/Séries/snowdrop.jpg" alt="Série Snowdrop" class="img-fluid" width="200">
             </swiper-slide>
         </swiper-container>
-    </main>
-<!-- 
-    <header id="header">
-        <nav>
-            <ul class="main-menu">
-                <div class="logo-container">
-                    <img src="assets/img/logo3.png" width="120">
-                </div>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Tarifs</a></li>
-                <li><a href="#">Installation</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#"></a></li>
-            </ul>
-        </nav>
 
-        <h1 class="animated-text">Bienvenue chez Stream Studio, l'IPTV de qualité <i class='bx bx-tv' style='color:#d13415'></i></h1>
-    </header> -->
-    <!-- 
+        <div class="container card-container my-5">
+            <div class="row mx-auto">
+                <div class="col-sm-8 col-md-6 col-lg-4 mx-auto mb-3 cards">
+                    <div class="card p-4 myCard card-1" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-perspective="600">
+                        <div class="card-body card-inner">
+                            <h5 class="card-title text-center fs-1 mb-5"><i class="fa-solid fa-tv" style="color: #ff0000;"></i></h5>
+                            <h5 class="card-subtitle mb-3 text-center fw-bold">L'IPTV, c'est quoi ?</h5>
+                            <ul class="card-text p-0">
+                                <li><i class="fa-solid fa-check pe-2"></i>Connexion Internet</li>
+                                <li><i class="fa-solid fa-check pe-2"></i>Des tonnes de chaînes TV</li>
+                                <li><i class="fa-solid fa-check pe-2"></i>Les derniers films sortis en salle</li>
+                                <li><i class="fa-solid fa-check pe-2"></i>Vos séries préférées</li>
+                                <li><i class="fa-solid fa-xmark pe-4"></i>Antenne TV</li>
+                                <li><i class="fa-solid fa-xmark pe-4"></i>Câble</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-6 col-lg-4 mx-auto mb-3 cards">
+                    <div class="card p-4 myCard card-2" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-perspective="600">
+                        <div class="card-body card-inner">
+                            <h5 class="card-title text-center fs-1 mb-5"><i class="fa-solid fa-hand-holding-dollar" style="color: #ff0000;"></i></h5>
+                            <h5 class="card-subtitle mb-3 text-center fw-bold">Économisez 💰</h5>
+                            <ul class="card-text p-0">
+                                <li><i class="fa-solid fa-check pe-2"></i>Arrêtez de payer Netflix</li>
+                                <li><i class="fa-solid fa-check pe-2"></i>Arrêtez de payer Prime Video</li>
+                                <li><i class="fa-solid fa-check pe-2"></i>Arrêtez de payer Disney +</li>
+                                <li><i class="fa-solid fa-check pe-2"></i>Arrêtez de payer Canal +</li>
+                                <li><i class="fa-solid fa-check pe-2"></i>Soulagez votre porte-monnaie</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-6 col-lg-4 mx-auto mb-3 cards">
+                    <div class="card p-4 myCard card-3" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-perspective="600">
+                        <div class="card-body card-inner">
+                            <h5 class="card-title text-center fs-1 mb-5"><i class="fa-solid fa-face-smile-beam" style="color: #ff0000;"></i></h5>
+                            <h5 class="card-subtitle mb-3 text-center fw-bold">Rejoignez-nous</h5>
+                            <ul class="card-text p-0">
+                                <li><i class="fa-solid fa-check pe-2"></i>1 seul compte</li>
+                                <li><i class="fa-solid fa-check pe-2"></i>1 seul mot de passe</li>
+                                <li><i class="fa-solid fa-check pe-2"></i>Tous supports</li>
+                                <li><i class="fa-solid fa-xmark pe-4"></i>0 frustration</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!-- 
     <main>
+
+
+        <a href="#" class="btn btn-primary d-block mb-2">90€<span class="price">/an</span></a>
+                            <p class="card-text text-center">
+                                <i class="fa-brands fa-paypal"></i>
+                                <i class="fa-solid fa-credit-card"></i>
+                            </p>
+
+
+
+
         <div class="logo-container">
             <img src="assets/img/logo.png" alt="Logo Stream Studio">
         </div>
@@ -296,8 +341,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/8e8be6f461.js" crossorigin="anonymous"></script>
+    <script src="vanilla-tilt.js"></script>
     <script src="index.js"></script>
 </body>
 
