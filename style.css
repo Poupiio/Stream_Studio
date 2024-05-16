@@ -111,8 +111,26 @@ swiper-slide img {
 .card-inner .fa-xmark {
     color: red;
 }
-.fa-paypal, .fa-credit-card {
-    color: #01C094;
+#price .subscription {
+    height: 100%;
+    border: solid 1px rgba(0, 0, 0, 0.8);
+    background: #FDF7FD;
+}
+#price .cardHeader {
+    background: rgb(30,21,35);
+    background: linear-gradient(155deg, rgba(30,21,35,1) 20%, #602020 80%);
+    color: #FDF7FD;
+}
+#price .subscription a {
+    margin: 0 auto;
+    width: fit-content;
+    background: red;
+    color: #FDF7FD;
+    letter-spacing: 0;
+    transition: 0.3s ease-in-out;
+}
+#price .subscription a:hover {
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
 }
 #faq {
     background: rgba(0, 0, 0, 0.8);
@@ -185,6 +203,20 @@ swiper-slide img {
 }
 .rs-link:hover {
     color: #FDF7FD;
+}
+.copyright {
+    background: rgba(0, 0, 0, 0.8);
+    color: #FDF7FD;
+}
+.copyright a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0;
+    text-decoration: none;
+    color: red;
+    transition: 0.3s ease-in-out;
+}
+.copyright a:hover {
+    color: #000;
 }
 @media screen and (min-width: 300px) and (max-width: 400px) {
     header {
