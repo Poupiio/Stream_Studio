@@ -111,6 +111,19 @@ swiper-slide img {
 .card-inner .fa-xmark {
     color: red;
 }
+.background-img {
+    background-image: url("assets/img/popcorn.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+#logos {
+    background: rgba(0, 0, 0, 0.8);
+}
+#logos h2 {
+    color: #FDF7FD;
+}
 #price .subscription {
     height: 100%;
     border: solid 1px rgba(0, 0, 0, 0.8);
@@ -167,22 +180,6 @@ swiper-slide img {
     background: rgba(0, 0, 0, 0.8);
     color: red;
 }
-#contact {
-    overflow-x: hidden;
-    background-image: url(assets/img/popcorn.png);
-    background-position: center;
-    background-size: cover;
-    height: 40vh;
-}
-#contact::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
 .rs-container {
     width: fit-content;
     background: rgba(255,255,255,0);
@@ -190,19 +187,14 @@ swiper-slide img {
     -webkit-backdrop-filter: blur(18.6px);
     border-radius: 8px;
     padding: 3rem;
-}
-.rs {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+}  
 .rs-link {
     transition: 0.3s ease-in-out;
     text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
     color: red;
 }
 .rs-link:hover {
-    color: #FDF7FD;
+    color: #000;
 }
 .copyright {
     background: rgba(0, 0, 0, 0.8);
