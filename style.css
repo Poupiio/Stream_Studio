@@ -246,6 +246,32 @@ swiper-slide img {
     .title h3 {
         font-size: 1.7rem;
     }
+    .card-container {
+        width: 100%;
+        padding: 0;
+    }
+    .card-container .cards {
+        width: 100%;
+    }
+    .faq-container {
+        width: 100%;
+        padding: 0;
+    }
+    #contact .rs-container {
+        width: 100%;
+        border: solid 2px blue;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 575px) {
+    .card-container {
+        width: 75%;
+        padding: 0
+    }
+    .card-container .cards {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 576px) {
     header {
