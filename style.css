@@ -129,6 +129,9 @@ swiper-slide img {
     border: solid 1px rgba(0, 0, 0, 0.8);
     background: #FDF7FD;
 }
+#price .cardHeader {
+    font-family: 'Bebas Neue', sans-serif;
+}
 #price .cardHeader::after {
     content: "";
     display: block;
@@ -149,6 +152,11 @@ swiper-slide img {
     color: red;
     font-size: 1.2rem;
 }
+#price .custom-badge {
+    font-size: 0.6em;
+    padding: 2px;
+    vertical-align: middle;
+}
 #price .subscription a {
     margin: 0 auto;
     width: fit-content;
@@ -167,18 +175,18 @@ swiper-slide img {
     color: #FDF7FD;
 }
 #faq a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Noto Sans", sans-serif;
     letter-spacing: 0;
 }
 .faq-question {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 #accordionFaq {
     border: solid 2px red;
     border-radius: 8px;
 }
 .accordion-button:not(.collapsed) {
-    background-color: #ff0000;
+    background-color: #602020;
     color: #ffffff;
 }
 .accordion-button.collapsed {
@@ -216,7 +224,7 @@ swiper-slide img {
     color: #FDF7FD;
 }
 .copyright a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Noto Sans", sans-serif;
     letter-spacing: 0;
     text-decoration: none;
     color: red;
