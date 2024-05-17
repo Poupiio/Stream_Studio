@@ -168,6 +168,10 @@ swiper-slide img {
 #price .subscription a:hover {
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
 }
+#install {
+    background: rgba(0, 0, 0, 0.8);
+    color: #FDF7FD;
+}
 #faq {
     background: rgba(0, 0, 0, 0.8);
 }
