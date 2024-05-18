@@ -17,6 +17,9 @@ h1, h2 {
 li {
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
 header {
     height: 60vh;
     margin-bottom: 20px;
@@ -187,7 +190,6 @@ swiper-slide img {
 .bxl-android:hover, .bxl-apple:hover {
     color: #000;
 }
-
 #faq {
     background: rgba(0, 0, 0, 0.8);
 }
@@ -197,6 +199,11 @@ swiper-slide img {
 #faq a {
     font-family: "Noto Sans", sans-serif;
     letter-spacing: 0;
+    color: red;
+    transition: 0.3s ease-in-out;
+}
+#faq a:hover {
+    color: #000;
 }
 .faq-question {
     font-family: "Noto Sans", sans-serif;
@@ -249,7 +256,6 @@ swiper-slide img {
 .copyright a {
     font-family: "Noto Sans", sans-serif;
     letter-spacing: 0;
-    text-decoration: none;
     color: red;
     transition: 0.3s ease-in-out;
 }
