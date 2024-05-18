@@ -5,13 +5,11 @@
 }
 body {
     background: #FDF7FD;
-    /* background: #181111; */
     min-height: 100vh;
     font-family: "Noto Sans", sans-serif;
 }
-h1, h2, h3, a {
+h1, h2, h3 {
     font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 2px;
 }
 h1, h2 {
     text-align: center;
@@ -26,6 +24,7 @@ header {
     background-image: url("assets/img/banner.jpg");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 header::before {
     content: '';
@@ -59,6 +58,8 @@ header::before {
 .main-menu a {
     color: red;
     transition: 0.3s ease-in-out;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 .main-menu a:hover {
     color: #FDF7FD;
@@ -255,18 +256,29 @@ swiper-slide img {
 .copyright a:hover {
     color: #000;
 }
-@media screen and (min-width: 300px) and (max-width: 400px) {
+@media screen and (min-width: 300px) {
     body {
         overflow-x: hidden;
     }
     header {
-        height: 40vh;
+        height: 30vh;
+    }
+    header .main-logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
+    .main-menu li {
+        font-size: 1.3rem;
+    }
+    .title {
+        top: 60%;
     }
     .title h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .title h3 {
-        font-size: 1.7rem;
+        font-size: 1.2rem;
     }
     .card-container {
         width: 100%;
@@ -285,7 +297,7 @@ swiper-slide img {
         justify-content: center;
     }
 }
-@media screen and (min-width: 400px) and (max-width: 575px) {
+/* @media screen and (min-width: 400px) and (max-width: 575px) {
     .card-container {
         width: 75%;
         padding: 0
@@ -309,7 +321,8 @@ swiper-slide img {
         top: 65%;
     }
     .title h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        border: solid 2px red;
     }
     .title h3 {
         font-size: 1.5rem;
@@ -317,4 +330,4 @@ swiper-slide img {
     .cards {
         width: 80%;
     }
-}
+} */

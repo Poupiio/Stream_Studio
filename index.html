@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-lg navBar position-relative">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#header">
-                    <img src="assets/img/logo.png" alt="Logo Stream Studio" width="100" height="100" class="main-logo ms-5">
+                    <img src="assets/img/logo.png" alt="Logo Stream Studio" width="100" height="100" class="main-logo">
                 </a>
                 <button class="navbar-toggler toggle-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,96 +53,98 @@
             <div class="row">
                 <div class="col-sm-10 col-md-9 col-lg-8 col-xl-8 position-absolute title p-4">
                     <h1>Retrouvez le meilleur de l'IPTV <i class='bx bx-tv' style='color:#d13415'></i></h1>
-                    <h3 class="mt-5">Gardez toujours vos films et séries préférés à portée de main</h3>
+                    <h3>Gardez toujours vos films et séries préférés à portée de main</h3>
                 </div>
             </div>
         </div>
      </header>
 
     <main>
-        <swiper-container class="mySwiper my-5" pagination="false" effect="coverflow" grab-cursor="true" centered-slides="true"
-        slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
-        coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true" autoplay="true">
-            <swiper-slide>
-                <img src="assets/img/Films/millersgirl.jpg" alt="Film Miller's Girl" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Films/demoiselle.jpg" alt="Film La Demoiselle et le Dragon" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Films/anatomiechute.jpg" alt="Film Anatomie d'une Chute" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Films/barbie.jpg" alt="Film Barbie" class="img-fluid">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Films/nowhere.jpg" alt="Film Nowhere" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Films/mondeapresnous.jpg" alt="Film Le Monde après Nous" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Films/belleetbête.jpg" alt="Film La Belle et la Bête" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Films/spaceman.jpg" alt="Film Spaceman" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Films/cercledesneiges.jpg" alt="Film Cercle Des Neiges" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Films/pauvrescreatures.jpg" alt="Film Pauvres Créatures" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Films/megan.jpg" alt="Film Megan" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Films/monstredesmers.jpg" alt="Film Monstre Des Mers" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Films/toutsauftoi.jpg" alt="Film Tout Sauf Toi" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Films/sousemprise.jpg" alt="Film Sous Emprise" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Séries/berlin.jpg" alt="Série Berlin" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Séries/breaking-bad.jpg" alt="Série Breaking Bad" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Séries/Bridgerton.webp" alt="Série La Chronique de Bridgerton" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Séries/DemonSlayer.jpg" alt="Série Demon Slayer" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Séries/kardashian.jpg" alt="Série Les Kardashian" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Séries/doublepiege.jpg" alt="Série Double Piège" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Séries/thisisus.jpg" alt="Série This Is Us" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Séries/sexeducation.jpg" alt="Série Sex Educations" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Séries/vikings.jpg" alt="Série Vikings" class="img-fluid" width="200">
-            </swiper-slide>
-            <swiper-slide>
-                <img src="assets/img/Séries/snowdrop.jpg" alt="Série Snowdrop" class="img-fluid" width="200">
-            </swiper-slide>
-        </swiper-container>
+        <div class="container-fluid movie-slide">
+            <swiper-container class="mySwiper" pagination="false" effect="coverflow" grab-cursor="true" centered-slides="true"
+            slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+            coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true" autoplay="true">
+                <swiper-slide>
+                    <img src="assets/img/Films/millersgirl.jpg" alt="Film Miller's Girl" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Films/demoiselle.jpg" alt="Film La Demoiselle et le Dragon" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Films/anatomiechute.jpg" alt="Film Anatomie d'une Chute" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Films/barbie.jpg" alt="Film Barbie" class="img-fluid">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Films/nowhere.jpg" alt="Film Nowhere" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Films/mondeapresnous.jpg" alt="Film Le Monde après Nous" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Films/belleetbête.jpg" alt="Film La Belle et la Bête" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Films/spaceman.jpg" alt="Film Spaceman" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Films/cercledesneiges.jpg" alt="Film Cercle Des Neiges" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Films/pauvrescreatures.jpg" alt="Film Pauvres Créatures" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Films/megan.jpg" alt="Film Megan" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Films/monstredesmers.jpg" alt="Film Monstre Des Mers" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Films/toutsauftoi.jpg" alt="Film Tout Sauf Toi" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Films/sousemprise.jpg" alt="Film Sous Emprise" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Séries/berlin.jpg" alt="Série Berlin" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Séries/breaking-bad.jpg" alt="Série Breaking Bad" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Séries/Bridgerton.webp" alt="Série La Chronique de Bridgerton" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Séries/DemonSlayer.jpg" alt="Série Demon Slayer" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Séries/kardashian.jpg" alt="Série Les Kardashian" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Séries/doublepiege.jpg" alt="Série Double Piège" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Séries/thisisus.jpg" alt="Série This Is Us" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Séries/sexeducation.jpg" alt="Série Sex Educations" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Séries/vikings.jpg" alt="Série Vikings" class="img-fluid" width="200">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="assets/img/Séries/snowdrop.jpg" alt="Série Snowdrop" class="img-fluid" width="200">
+                </swiper-slide>
+            </swiper-container>
+        </div>
 
         <div class="container card-container my-5">
             <div class="row mx-auto">
                 <div class="col-sm-8 col-md-6 col-lg-4 mx-auto mb-3 cards">
                     <div class="card p-4 myCard" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-perspective="600">
                         <div class="card-body card-inner">
-                            <h5 class="card-title text-center fs-1 mb-5"><i class="fa-solid fa-tv"></i></h5>
+                            <h5 class="card-title text-center fs-1 mb-4"><i class="fa-solid fa-tv"></i></h5>
                             <h5 class="card-subtitle mb-3 text-center fw-bold">L'IPTV, c'est quoi ?</h5>
                             <ul class="card-text p-0">
                                 <li><i class="fa-solid fa-check pe-2"></i>Connexion Internet</li>
@@ -158,7 +160,7 @@
                 <div class="col-sm-8 col-md-6 col-lg-4 mx-auto mb-3 cards">
                     <div class="card p-4 myCard" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-perspective="600">
                         <div class="card-body card-inner">
-                            <h5 class="card-title text-center fs-1 mb-5"><i class="fa-solid fa-hand-holding-dollar"></i></h5>
+                            <h5 class="card-title text-center fs-1 mb-4"><i class="fa-solid fa-hand-holding-dollar"></i></h5>
                             <h5 class="card-subtitle mb-3 text-center fw-bold">Économisez 💰</h5>
                             <ul class="card-text p-0">
                                 <li><i class="fa-solid fa-check pe-2"></i>Arrêtez de payer Netflix</li>
@@ -173,7 +175,7 @@
                 <div class="col-sm-8 col-md-6 col-lg-4 mx-auto mb-3 cards">
                     <div class="card p-4 myCard" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-perspective="600">
                         <div class="card-body card-inner">
-                            <h5 class="card-title text-center fs-1 mb-5"><i class="fa-solid fa-face-smile-beam"></i></h5>
+                            <h5 class="card-title text-center fs-1 mb-4"><i class="fa-solid fa-face-smile-beam"></i></h5>
                             <h5 class="card-subtitle mb-3 text-center fw-bold">Rejoignez-nous</h5>
                             <ul class="card-text p-0">
                                 <li><i class="fa-solid fa-check pe-2"></i>1 seul compte</li>
@@ -189,7 +191,7 @@
 
         <div class="container-fluid background-img"></div>
 
-        <div id="logos" class="container-fluid my-5 p-5">
+        <div id="logos" class="container-fluid my-5 p-0">
             <h2 class="pb-4">Tout ce que vous cherchez à portée de main</h2>
             <swiper-container class="mySwiper logo-swiper mx-auto" pagination="true" effect="cube" grab-cursor="true" cube-effect-shadow="true"
             cube-effect-slide-shadows="true" cube-effect-shadow-offset="20" cube-effect-shadow-scale="0.94" autoplay="true" loop="true>
@@ -236,7 +238,7 @@
         </div>
 
         <div id="price" class="container card-container my-5">
-            <h2 class="pb-4">Nos abonnements</h2>
+            <h2 class="py-4">Nos abonnements</h2>
             <div class="row mx-auto justify-content-center">
                 <div class="col-sm-8 col-md-5 col-lg-4 mb-3 cards">
                     <div class="card subscription">
@@ -302,12 +304,7 @@
             </div>
         </div>
 
-        <!-- Plus de 60 000 films
-        Plus de 10 000 séries
-        Plus de 11 000 chaînes (France, Belgique, Italie, Allemagne, Espagne, Maghreb)
-    -->
-
-        <div id="install" class="container-fluid p-5 my-5">
+        <div id="install" class="container-fluid py-5 my-5">
             <h2 class="pb-4">Installation</h2>
             <div class="container install-container col-sm-12 col-lg-8">
                 <h5 class="d-flex align-items-center">Téléchargez l'application Infinity OTT Player
@@ -415,7 +412,7 @@
             </div>
         </div>
 
-        <div class="btn my-5 d-flex justify-content-center">
+        <div class="btn my-2 d-flex justify-content-center">
             <a href="#header" type="button" class="btn backtotop"><i class="fa-solid fa-arrow-up"></i></a>
         </div>
     
