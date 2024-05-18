@@ -267,7 +267,7 @@ swiper-slide img {
         overflow-x: hidden;
     }
     header {
-        height: 100vh;
+        height: 60vh;
     }
     header .main-logo {
         width: 50px;
@@ -305,7 +305,7 @@ swiper-slide img {
 }
 @media screen and (min-width: 400px) and (max-width: 499px) {
     header {
-        height: 100vh;
+        height: 60vh;
     }
     header .main-logo {
         width: 70px;
