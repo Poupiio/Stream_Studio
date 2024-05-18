@@ -116,7 +116,7 @@ swiper-slide img {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 50vh;
+    height: 40vh;
 }
 #logos {
     background: rgba(0, 0, 0, 0.8);
@@ -172,6 +172,18 @@ swiper-slide img {
     background: rgba(0, 0, 0, 0.8);
     color: #FDF7FD;
 }
+.bxl-android {
+    color: #9FC037;
+    transition: 0.3s ease-in-out;
+}
+.bxl-apple {
+    color: #D1D1D1;
+    transition: 0.3s ease-in-out;
+}
+.bxl-android:hover, .bxl-apple:hover {
+    color: #000;
+}
+
 #faq {
     background: rgba(0, 0, 0, 0.8);
 }
