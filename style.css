@@ -262,7 +262,7 @@ swiper-slide img {
 .copyright a:hover {
     color: #000;
 }
-@media screen and (max-width: 399px) {
+/* @media screen and (max-width: 399px) {
     body {
         overflow-x: hidden;
     }
@@ -304,9 +304,9 @@ swiper-slide img {
     }
 }
 @media screen and (min-width: 400px) and (max-width: 499px) {
-    /* header {
+    header {
         height: 30vh;
-    } */
+    }
     header .main-logo {
         width: 70px;
         height: 70px;
@@ -331,4 +331,4 @@ swiper-slide img {
     .card-container {
         width: 80%;
     }
-}
+} */
