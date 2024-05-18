@@ -256,6 +256,9 @@ swiper-slide img {
     color: #000;
 }
 @media screen and (min-width: 300px) and (max-width: 400px) {
+    body {
+        overflow-x: hidden;
+    }
     header {
         height: 40vh;
     }
@@ -278,7 +281,6 @@ swiper-slide img {
     }
     #contact .rs-container {
         width: 100%;
-        border: solid 2px blue;
         display: flex;
         justify-content: center;
     }
