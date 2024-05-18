@@ -256,7 +256,7 @@ swiper-slide img {
 .copyright a:hover {
     color: #000;
 }
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 399px) {
     body {
         overflow-x: hidden;
     }
@@ -297,22 +297,13 @@ swiper-slide img {
         justify-content: center;
     }
 }
-/* @media screen and (min-width: 400px) and (max-width: 575px) {
-    .card-container {
-        width: 75%;
-        padding: 0
-    }
-    .card-container .cards {
-        width: 100%;
-    }
-}
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 400px) and (max-width: 499px) {
     header {
-        height: 40vh;
+        height: 30vh;
     }
-    .main-logo {
-        width: 80px;
-        height: 80px;
+    header .main-logo {
+        width: 70px;
+        height: 70px;
     }
     .main-menu li {
         font-size: 1.3rem;
@@ -321,13 +312,17 @@ swiper-slide img {
         top: 65%;
     }
     .title h1 {
-        font-size: 2rem;
-        border: solid 2px red;
+        font-size: 2.2rem;
     }
     .title h3 {
         font-size: 1.5rem;
     }
-    .cards {
+    .card-container {
+        width: 85%;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 575px) {
+    .card-container {
         width: 80%;
     }
-} */
+}
