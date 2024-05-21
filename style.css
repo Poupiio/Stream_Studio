@@ -169,7 +169,6 @@ swiper-slide img {
     width: fit-content;
     background: red;
     color: #FDF7FD;
-    letter-spacing: 0;
     transition: 0.3s ease-in-out;
 }
 #price .subscription a:hover {
@@ -179,6 +178,15 @@ swiper-slide img {
     background: rgba(0, 0, 0, 0.8);
     color: #FDF7FD;
 }
+.dl-btn {
+    background: linear-gradient(155deg, rgba(30,21,35,1) 20%, #602020 80%);
+    color: #FDF7FD;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+.dl-btn:hover {
+    color: green;
+}
 .bxl-android {
     color: #9FC037;
     transition: 0.3s ease-in-out;
@@ -186,9 +194,6 @@ swiper-slide img {
 .bxl-apple {
     color: #D1D1D1;
     transition: 0.3s ease-in-out;
-}
-.bxl-android:hover, .bxl-apple:hover {
-    color: #000;
 }
 #faq {
     background: rgba(0, 0, 0, 0.8);
@@ -235,11 +240,7 @@ swiper-slide img {
 }
 .rs-container {
     width: fit-content;
-    background: rgba(255,255,255,0);
-    backdrop-filter: blur(18.6px);
-    -webkit-backdrop-filter: blur(18.6px);
-    border-radius: 8px;
-    padding: 3rem;
+    padding-bottom: 20px;
 }  
 .rs-link {
     transition: 0.3s ease-in-out;
