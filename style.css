@@ -185,7 +185,7 @@ swiper-slide img {
     transition: 0.3s ease-in-out;
 }
 .dl-btn:hover {
-    color: green;
+    color: red;
 }
 .bxl-android {
     color: #9FC037;
