@@ -239,11 +239,8 @@ swiper-slide img {
     color: red;
 }
 #contact {
-    background: rgba(0, 0, 0, 0.8);
+    background: linear-gradient(155deg, rgba(30,21,35,1) 20%, #602020 80%);
     color: #FDF7FD;
-    background-image: url("assets/img/footer.png");
-    background-position: center;
-    background-size: cover;
 }
 .rs-link {
     transition: 0.3s ease-in-out;
@@ -254,7 +251,7 @@ swiper-slide img {
     margin-right: 90px;
 }
 .rs-link:hover {
-    color: #000;
+    color: #FDF7FD;
 }
 .form-contact label {
     color: red;
