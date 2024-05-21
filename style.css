@@ -253,7 +253,7 @@ swiper-slide img {
 .rs-link:hover {
     color: #FDF7FD;
 }
-.form-contact label {
+#form-contact label {
     color: red;
 }
 .submit {

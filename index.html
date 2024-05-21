@@ -257,7 +257,7 @@
                                 <li class="pb-2"><i class="fa-solid fa-clapperboard pe-2"></i>4K, Full HD, HD, SD</li>
                                 <li class="mb-5"><i class="fa-solid fa-clapperboard pe-2"></i>Test gratuit, sans engagement</li>
                             </ul>
-                            <a href="#" class="btn d-block text-uppercase mt-auto fw-bold">Essayer</a>
+                            <a href="#contact-form" class="btn d-block text-uppercase mt-auto fw-bold">Essayer</a>
                             <div class="d-flex justify-content-center align-items-center mt-3">
                                 <i class="fa-brands fa-paypal pe-3"></i>
                                 <i class="fa-solid fa-credit-card"></i>
@@ -277,7 +277,7 @@
                                 <li class="pb-2"><i class="fa-solid fa-clapperboard pe-2"></i>4K, Full HD, HD, SD</li>
                                 <li class="mb-5"><i class="fa-solid fa-clapperboard pe-2"></i>Mises à jour quotidiennes</li>
                             </ul>
-                            <a href="#" class="btn d-block text-uppercase mt-auto fw-bold">S'abonner</a>
+                            <a href="https://paypal.me/streetshop79?country.x=FR&locale.x=fr_FR" class="btn d-block text-uppercase mt-auto fw-bold">S'abonner</a>
                             <div class="d-flex justify-content-center align-items-center mt-3">
                                 <i class="fa-brands fa-paypal pe-3"></i>
                                 <i class="fa-solid fa-credit-card"></i>
@@ -298,7 +298,7 @@
                                 <li class="pb-2"><i class="fa-solid fa-clapperboard pe-2"></i>4K, Full HD, HD, SD</li>
                                 <li class="mb-5"><i class="fa-solid fa-clapperboard pe-2"></i>Mises à jour quotidiennes</li>
                             </ul>
-                            <a href="#" class="btn d-block text-uppercase mt-auto fw-bold">S'abonner</a>
+                            <a href="https://paypal.me/streetshop79?country.x=FR&locale.x=fr_FR" class="btn d-block text-uppercase mt-auto fw-bold">S'abonner</a>
                             <div class="d-flex justify-content-center align-items-center mt-3">
                                 <i class="fa-brands fa-paypal pe-3"></i>
                                 <i class="fa-solid fa-credit-card"></i>
@@ -427,7 +427,6 @@
 
     <footer>
         <div id="contact" class="container-fluid mt-5 p-5">
-            <h2 class="mb-5">Restons en contact</h2>
             <div class="row rs-container">
                 <div class="col d-flex justify-content-center mb-5">
                     <a href="https://wa.me/33650279101" target="_blank" class="rs-link">
@@ -446,9 +445,26 @@
                     <form action="https://formspree.io/f/xbjnedba" method="POST" id="form-contact">
                         <input name="subject" type="hidden" value="Abonnement IPTV" />
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="monemail@gmail.com" required>
-                            <label for="floatingInput">Votre adresse email</label>
-                          </div>
+                            <input type="email" class="form-control" id="basic-email" placeholder="monemail@gmail.com" required>
+                            <label for="basic-email">Votre adresse email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="user-name" placeholder="name@example.com">
+                            <label for="user-name">Nom et prénom</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="paypal-email" placeholder="name@example.com">
+                            <label for="paypal-email">Adresse email rattachée à votre compte PayPal</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <select class="form-select" id="msg-subject" aria-label="Floating label select example">
+                                <option value="1">Abonnement test</option>
+                                <option value="2" selected>Abonnement 12 mois</option>
+                                <option value="3">Abonnement 12 mois 🔞</option>
+                                <option value="4">Autre demande</option>
+                            </select>
+                            <label for="msg-subject">Choisissez le motif de votre demande</label>
+                        </div>
                         <div class="form-floating mb-4">
                             <textarea class="form-control" placeholder="Je voudrais acheter l'abonnement 12 mois !" id="floatingTextarea" style="height: 100px" required></textarea>
                             <label for="floatingTextarea">Votre message</label>
