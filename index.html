@@ -374,7 +374,8 @@
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
                                 <div class="accordion-body">
-                                    <p>Vous recevrez vos codes d'accès lorsque le paiement aura été effectué, dans un délai de 15 à 45 minutes.</p>
+                                    <p>Pour recevoir vos codes d'accès, vous pouvez nous envoyer un mail <a href="#form-contact">ici</a> en renseignant votre adresse email rattachée à votre compte PayPal (pour nous assurer que le paiement a été effectué).</p>
+                                    <p>Vous recevrez ensuite vos codes d'accès lorsque le paiement aura été effectué, dans un délai de 15 à 45 minutes.</p>
                                 </div>
                             </div>
                         </div>
@@ -387,6 +388,7 @@
                             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
                                 <div class="accordion-body">
                                     <p>Vous pouvez régler avec PayPal ou virement bancaire.</p>
+                                    <p>⚠️ Veillez à bien sélectionner <strong>"Paiement entre proches"</strong> sur PayPal, sinon des frais sont appliqués, et vous ne pourrez pas recevoir vos codes d'accès.</p>
                                     <p>Pour le virement bancaire, <a href="#form-contact" class="payment-contact">contactez-nous</a></p>
                                 </div>
                             </div>
@@ -449,19 +451,23 @@
                             <label for="basic-email">Votre adresse email</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="user-name" placeholder="name@example.com">
+                            <input type="text" class="form-control" id="user-name" placeholder="name@example.com" required>
                             <label for="user-name">Nom et prénom</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="paypal-email" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="paypal-email" placeholder="name@example.com" required>
                             <label for="paypal-email">Adresse email rattachée à votre compte PayPal</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <select class="form-select" id="msg-subject" aria-label="Floating label select example">
-                                <option value="1">Abonnement test</option>
-                                <option value="2" selected>Abonnement 12 mois</option>
-                                <option value="3">Abonnement 12 mois 🔞</option>
-                                <option value="4">Autre demande</option>
+                            <input type="tel" class="form-control" id="tel" placeholder="name@example.com" required>
+                            <label for="tel">N° de téléphone</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <select class="form-select" id="msg-subject" aria-label="Floating label select example" required>
+                                <option value="Test">Abonnement test</option>
+                                <option value="12 mois" selected>Abonnement 12 mois</option>
+                                <option value="12 mois Adulte">Abonnement 12 mois 🔞</option>
+                                <option value="Autre demande">Autre demande</option>
                             </select>
                             <label for="msg-subject">Choisissez le motif de votre demande</label>
                         </div>
