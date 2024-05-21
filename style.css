@@ -238,17 +238,35 @@ swiper-slide img {
     background: rgba(0, 0, 0, 0.8);
     color: red;
 }
-.rs-container {
-    width: fit-content;
-    padding-bottom: 20px;
-}  
+#contact {
+    background: rgba(0, 0, 0, 0.8);
+    color: #FDF7FD;
+    background-image: url("assets/img/footer.png");
+    background-position: center;
+    background-size: cover;
+}
 .rs-link {
     transition: 0.3s ease-in-out;
     text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
     color: red;
 }
+.rs-link:not(:last-child) {
+    margin-right: 90px;
+}
 .rs-link:hover {
     color: #000;
+}
+.form-contact label {
+    color: red;
+}
+.submit {
+    background: red;
+    color: #FDF7FD;
+}
+.submit:hover {
+    background: red;
+    color: #FDF7FD;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
 }
 .copyright {
     background: rgba(0, 0, 0, 0.8);
