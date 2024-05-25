@@ -52,6 +52,7 @@ header::before {
 }
 .main-logo {
     border-radius: 100%;
+    margin-left: 25px;
 }
 .navBar {
     background: rgba(255,255,255,0);
@@ -172,6 +173,7 @@ swiper-slide img {
 .dl-btn {
     text-transform: uppercase;
     transition: 0.3s ease-in-out;
+    width: 60%;
 }
 .dl-btn:hover {
     color: red;
@@ -186,7 +188,6 @@ swiper-slide img {
 }
 #faq a {
     font-family: "Noto Sans", sans-serif;
-    letter-spacing: 0;
     transition: 0.3s ease-in-out;
 }
 #faq a:hover {
@@ -244,7 +245,6 @@ swiper-slide img {
 }
 .copyright a {
     font-family: "Noto Sans", sans-serif;
-    letter-spacing: 0;
     transition: 0.3s ease-in-out;
 }
 .copyright a:hover {
@@ -281,6 +281,9 @@ swiper-slide img {
     .card-container .cards {
         width: 100%;
     }
+    .dl-btn {
+        width: 90%;
+    }
     .faq-container {
         width: 100%;
         padding: 0;
@@ -314,6 +317,9 @@ swiper-slide img {
     .card-container {
         width: 85%;
     }
+    .dl-btn {
+        width: 70%;
+    }
 }
 @media screen and (min-width: 500px) and (max-width: 575px) {
     .card-container {
@@ -323,5 +329,24 @@ swiper-slide img {
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     header {
         height: 90vh;
+    }
+}
+@media screen and (min-width: 1200px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+    .main-logo {
+        margin-left: 80px;
+    }
+    .cards {
+        font-size: 1.2rem;
+    }
+    .card-inner .fa-check, #price .fa-clapperboard {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .myNav {
+        justify-content: center !important;
     }
 }
