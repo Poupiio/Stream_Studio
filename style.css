@@ -265,6 +265,10 @@ swiper-slide img {
     color: #FDF7FD;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
 }
+#my-form-status {
+    font-size: 1.2rem;
+    color: #000;
+}
 .copyright {
     background: rgba(0, 0, 0, 0.8);
     color: #FDF7FD;

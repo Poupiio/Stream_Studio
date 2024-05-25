@@ -444,26 +444,27 @@
             </div>
             <div class="row">
                 <div class="col-sm-10 col-lg-8 col-xxl-4 mx-auto p-3">
-                    <form action="https://formspree.io/f/xbjnedba" method="POST" id="form-contact">
+                    <!-- <form action="https://formspree.io/f/xbjnedba" method="POST" id="form-contact"> -->
+                    <form action="https://formspree.io/f/mayrkgzj" method="POST" id="form-contact">
                         <input name="subject" type="hidden" value="Abonnement IPTV" />
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="basic-email" placeholder="monemail@gmail.com" required>
+                            <input type="email" class="form-control" id="basic-email" name="email" placeholder="monemail@gmail.com" required>
                             <label for="basic-email">Votre adresse email</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="user-name" placeholder="name@example.com" required>
+                            <input type="text" class="form-control" id="user-name" name="name" placeholder="name@example.com" required>
                             <label for="user-name">Nom et prénom</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="paypal-email" placeholder="name@example.com" required>
+                            <input type="email" class="form-control" id="paypal-email" name="paypal-email" placeholder="name@example.com" required>
                             <label for="paypal-email" class="text-wrap lh-sm">Adresse email rattachée à votre compte PayPal</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="tel" class="form-control" id="tel" placeholder="name@example.com" required>
+                            <input type="tel" class="form-control" id="tel" name="tel" placeholder="name@example.com" required>
                             <label for="tel">N° de téléphone</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <select class="form-select" id="msg-subject" aria-label="Floating label select example" required>
+                            <select class="form-select" id="msg-subject" name="subscription-type" aria-label="Floating label select example" required>
                                 <option value="Test">Abonnement test</option>
                                 <option value="12 mois" selected>Abonnement 12 mois</option>
                                 <option value="12 mois Adulte">Abonnement 12 mois 🔞</option>
@@ -472,10 +473,23 @@
                             <label for="msg-subject" class="text-wrap lh-base">Motif de votre demande</label>
                         </div>
                         <div class="form-floating mb-4">
-                            <textarea class="form-control" placeholder="Je voudrais acheter l'abonnement 12 mois !" id="floatingTextarea" style="height: 100px" required></textarea>
+                            <textarea class="form-control" name="message" placeholder="Je voudrais acheter l'abonnement 12 mois !" id="floatingTextarea" style="height: 100px" required></textarea>
                             <label for="floatingTextarea">Votre message</label>
                         </div>
-                        <button type="submit" class="btn submit text-uppercase d-block mx-auto my-3">Envoyer</button>
+                        <button type="submit" class="btn submit text-uppercase d-block mx-auto my-3" data-bs-toggle="modal" data-bs-target="#submissionModal">Envoyer</button>
+                        
+                        <div class="modal fade" id="submissionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p id="my-form-status"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
