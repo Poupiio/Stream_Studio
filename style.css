@@ -32,6 +32,9 @@ a {
 .bgc-gradient {
     background: linear-gradient(155deg, rgba(30,21,35,1) 20%, #602020 80%);
 }
+.transition {
+    transition: 0.3s ease-in-out;
+}
 header {
     height: 60vh;
     margin-bottom: 20px;
@@ -72,7 +75,6 @@ header::before {
     text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
 }
 .main-menu a {
-    transition: 0.3s ease-in-out;
     letter-spacing: 2px;
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -165,14 +167,12 @@ swiper-slide img {
     margin: 0 auto;
     width: fit-content;
     background: red;
-    transition: 0.3s ease-in-out;
 }
 #price .subscription a:hover {
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
 }
 .dl-btn {
     text-transform: uppercase;
-    transition: 0.3s ease-in-out;
     width: 60%;
 }
 .dl-btn:hover {
@@ -180,21 +180,15 @@ swiper-slide img {
 }
 .bxl-android {
     color: #9FC037;
-    transition: 0.3s ease-in-out;
 }
 .bxl-apple {
     color: #D1D1D1;
-    transition: 0.3s ease-in-out;
 }
-#faq a {
+#faq a, .faq-question, .copyright a {
     font-family: "Noto Sans", sans-serif;
-    transition: 0.3s ease-in-out;
 }
 #faq a:hover {
     color: #000;
-}
-.faq-question {
-    font-family: "Noto Sans", sans-serif;
 }
 #accordionFaq {
     border: solid 2px red;
@@ -221,7 +215,6 @@ swiper-slide img {
     color: red;
 }
 .rs-link {
-    transition: 0.3s ease-in-out;
     text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
 }
 .rs-link:not(:last-child) {
@@ -242,10 +235,6 @@ swiper-slide img {
 #my-form-status {
     font-size: 1.2rem;
     color: #000;
-}
-.copyright a {
-    font-family: "Noto Sans", sans-serif;
-    transition: 0.3s ease-in-out;
 }
 .copyright a:hover {
     color: #000;
