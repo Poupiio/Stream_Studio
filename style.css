@@ -11,7 +11,7 @@ body {
 h1, h2, h3 {
     font-family: 'Bebas Neue', sans-serif;
 }
-h1, h2 {
+h2 {
     text-align: center;
 }
 li {
@@ -19,6 +19,18 @@ li {
 }
 a {
     text-decoration: none;
+}
+.red, #form-contact label {
+    color: red;
+}
+.pm-color {
+    color: #FDF7FD;
+}
+.bgc {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.bgc-gradient {
+    background: linear-gradient(155deg, rgba(30,21,35,1) 20%, #602020 80%);
 }
 header {
     height: 60vh;
@@ -59,7 +71,6 @@ header::before {
     text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
 }
 .main-menu a {
-    color: red;
     transition: 0.3s ease-in-out;
     letter-spacing: 2px;
     font-family: 'Bebas Neue', sans-serif;
@@ -71,7 +82,6 @@ header::before {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #FDF7FD;
     z-index: 1;
 }
 .title h1, .title h3 {
@@ -94,9 +104,6 @@ swiper-slide img {
     width: 100%;
 }
 .myCard {
-    background: rgb(30,21,35);
-    background: linear-gradient(155deg, rgba(30,21,35,1) 20%, #602020 80%);
-    color: #FDF7FD;
     border-radius: 8px;
     backdrop-filter: blur(5px);
     height: 100%;
@@ -111,9 +118,6 @@ swiper-slide img {
     margin-right: 10px;
     color: rgb(1,192,148);
     font-size: 1.2rem;
-}
-.card-inner .fa-xmark {
-    color: red;
 }
 .background-img {
     background-image: url("assets/img/popcorn.png");
@@ -133,8 +137,6 @@ swiper-slide img {
 }
 #price .subscription {
     height: 100%;
-    border: solid 1px rgba(0, 0, 0, 0.8);
-    background: #FDF7FD;
 }
 #price .cardHeader {
     font-family: 'Bebas Neue', sans-serif;
@@ -150,13 +152,7 @@ swiper-slide img {
     transform: translateX(-50%);
     bottom: -20px;
 }
-#price .subscription {
-    background: rgb(30,21,35);
-    background: linear-gradient(155deg, rgba(30,21,35,1) 20%, #602020 80%);
-    color: #FDF7FD;
-}
 #price .fa-clapperboard {
-    color: red;
     font-size: 1.2rem;
 }
 #price .custom-badge {
@@ -168,19 +164,12 @@ swiper-slide img {
     margin: 0 auto;
     width: fit-content;
     background: red;
-    color: #FDF7FD;
     transition: 0.3s ease-in-out;
 }
 #price .subscription a:hover {
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
 }
-#install {
-    background: rgba(0, 0, 0, 0.8);
-    color: #FDF7FD;
-}
 .dl-btn {
-    background: linear-gradient(155deg, rgba(30,21,35,1) 20%, #602020 80%);
-    color: #FDF7FD;
     text-transform: uppercase;
     transition: 0.3s ease-in-out;
 }
@@ -195,16 +184,9 @@ swiper-slide img {
     color: #D1D1D1;
     transition: 0.3s ease-in-out;
 }
-#faq {
-    background: rgba(0, 0, 0, 0.8);
-}
-#faq h2 {
-    color: #FDF7FD;
-}
 #faq a {
     font-family: "Noto Sans", sans-serif;
     letter-spacing: 0;
-    color: red;
     transition: 0.3s ease-in-out;
 }
 #faq a:hover {
@@ -230,7 +212,6 @@ swiper-slide img {
 }
 .backtotop {
     background: red;
-    color: #FDF7FD;
     border-radius: 100%;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.8);
 }
@@ -238,14 +219,9 @@ swiper-slide img {
     background: rgba(0, 0, 0, 0.8);
     color: red;
 }
-#contact {
-    background: linear-gradient(155deg, rgba(30,21,35,1) 20%, #602020 80%);
-    color: #FDF7FD;
-}
 .rs-link {
     transition: 0.3s ease-in-out;
     text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
-    color: red;
 }
 .rs-link:not(:last-child) {
     margin-right: 90px;
@@ -253,12 +229,9 @@ swiper-slide img {
 .rs-link:hover {
     color: #FDF7FD;
 }
-#form-contact label {
-    color: red;
-}
 .submit {
     background: red;
-    color: #FDF7FD;
+    font-weight: 600;
 }
 .submit:hover {
     background: red;
@@ -269,14 +242,9 @@ swiper-slide img {
     font-size: 1.2rem;
     color: #000;
 }
-.copyright {
-    background: rgba(0, 0, 0, 0.8);
-    color: #FDF7FD;
-}
 .copyright a {
     font-family: "Noto Sans", sans-serif;
     letter-spacing: 0;
-    color: red;
     transition: 0.3s ease-in-out;
 }
 .copyright a:hover {
